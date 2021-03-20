@@ -14,7 +14,7 @@ export default memo(function LJAppHeader() {
   const showSelectItem = (item, index) => {
     if (index < 3) {
       return (
-        <NavLink exact to={item.link} activeClassName="link-active">{item.title}
+        <NavLink to={item.link} activeClassName="link-active">{item.title}
           <i className="icon"></i>
         </NavLink>
       )

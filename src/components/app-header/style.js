@@ -78,7 +78,7 @@ display: flex;
   color: #ccc;
   font-size: 12px;
     .search {
-      width: 158px;
+      width: 128px;
       height: 32px;
       border-radius: 16px;
         input {
