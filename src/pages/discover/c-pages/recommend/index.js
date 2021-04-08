@@ -1,6 +1,8 @@
 import React, { memo } from 'react'
 import LJTopBanner from './c-cpns/top-banner'
 import LJHotRecommend from './c-cpns/hot-recommend'
+import LJNewAlbum from './c-cpns/new-album'
+import LJRecommendRanking from './c-cpns/recommend-ranking'
 import {
     RecommendWrapper,
     Content,
@@ -15,6 +17,8 @@ function LJRacommend(props) {
             <Content className="w980">
                 <RecommendLeft>
                     <LJHotRecommend />
+                    <LJNewAlbum />
+                    <LJRecommendRanking />
                 </RecommendLeft>
                 <RecommendRight></RecommendRight>
             </Content>
